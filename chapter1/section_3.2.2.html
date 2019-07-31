@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--图像间距与对其方式：
+<img src="图像地址" hspace="" vspace="">
+hspace:用于设置图像的水平间距，单位是像素，可以省略
+vspace:用于设置图像的垂直间距，单位是像素，可以省略
+
+设置图像相对于文字基准线的对其方式？？
+图像和文字之间的排列通过align参数来调整。对其方式有两种？
+绝对对其方式：左对齐，右对齐和居中对齐
+相对文字对齐方式：指的是图像与一行文字的相对位置
+语法：
+<img src="图像位置地址" align="相对文字的对齐方式">
+align的取值有哪些？
+top:把图像的顶部和同行的最高部分对齐（可能是文本的顶部，也可能是图像的顶部）
+middle:把图像的中间和行的中部对齐
+bottom:把图像的底部和同行文本的底部对齐
+texttop:由快到慢，也就是逐渐减速
+absmiddle:把图像的中部和同行中最大项的中部对齐
+baseline:把图像的底部和文本的基线对齐
+absbottom:把图像的底部和同行中的最低项对齐
+left:使图像和左边界对齐（文本环绕图像）
+right:使图像和右边界对齐（文本环绕图像）
+来吧开战
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>图像间距与对齐方式</title>
+    </head>
+    <body>
+    <h2>请选择你喜欢的头像吧！</h2>
+    <hr size="2">    <!--水平线-->
+    第一组我的头像<img src="../images/me02.jpg" border="1" align="middle" height="140" title="超超1" hspace="50">
+                <img src="../images/me03.jpg" border="1" align="middle" height="140" title="超超2" hspace="50">
+                <img src="../images/me04.jpg" border="1" align="middle" height="140" title="超超3" hspace="50">
+                <img src="../images/me05.jpg" border="1" align="middle" height="140" title="超超4" vspace="50" hspace="50">
+    <br><br>
+    第二组我的头像<img src="../images/me0.jpg" border="1" align="middle" height="120" alt="超超头像">
+                <img src="../images/me07.jpg" border="1" align="middle" height="120" alt="超超头像1" title="超超头像1">
+                <img src="../images/me08.jpg" border="1" align="middle" height="120">
+                <img src="../images/me09.jpg" border="1" align="middle" height="120">
+    </body>
+</html>
